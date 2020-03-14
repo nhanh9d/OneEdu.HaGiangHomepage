@@ -123,7 +123,7 @@ body {
 
 .hd-center-block {
     position: absolute;
-    top: 20%;
+    top: 23%;
     width: 100%;
 }
 
@@ -342,7 +342,7 @@ body {
     }
 
     .hd-info-text {
-        font-size: 16px
+        font-size: 18px;
     }
 
     .btn-register {
@@ -353,7 +353,7 @@ body {
 
     .feedback {
         width: 50px;
-        top: 80%;
+        top: 75%;
     }
 
     .feedback-text {
@@ -379,25 +379,19 @@ body {
     .hd-bottom-block {
         position: relative;
         bottom: unset;
-        background-image: url(../images/hd-bg-bottom-block.png);
-        background-repeat: repeat-x;
-        background-size: contain;
+        background: #142b50;
     }
 
         .hd-bottom-block .row .col {
-            flex-basis: unset
+            flex-basis: unset;
+            padding: 20px 10px;
         }
 
             .hd-bottom-block .row .col a {
-                display: flex;
-                align-items: center;
                 padding: 10px 0 20px;
             }
 
                 .hd-bottom-block .row .col a img {
-                    width: 30px;
-                    text-align: center;
-                    margin-right: 15px;
                 }
 
     .footer {
@@ -428,6 +422,11 @@ body {
     .slider-for {
         margin-bottom: 120px;
     }
+
+    .hd-bottom-text-desc {
+        font-size: 14px;
+        color: #6da4e3;
+    }
 }
 
 @media(max-width:575px) {
@@ -452,11 +451,11 @@ body {
     }
 
     .hd-center-block {
-        top: 15%;
+        top: 10%;
     }
 
     .hd-info-text {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .main-title {
@@ -499,7 +498,7 @@ body {
     }
 
     .hd-center-block {
-        top: 15%;
+        top: 10%;
     }
 
     .btn-register {
@@ -509,7 +508,7 @@ body {
     }
 
     .hd-info-text {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .hotline-mobile {
@@ -530,5 +529,11 @@ body {
 
     .slider-txt-title {
         font-size: 16px
+    }
+}
+
+@media (max-width: 375px) {
+    .hd-info-text {
+        font-size: 10px;
     }
 }
